@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/realTime/realTime",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -34,7 +35,7 @@
         "selectedIconPath": "imgs/guessYouLikeSelected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/mine",
         "text": "我的",
         "iconPath": "imgs/mine.png",
         "selectedIconPath": "imgs/mineSelected.png"
