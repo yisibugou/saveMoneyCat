@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/realTime/realTime",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "省钱猫喵",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#f10b2e",
+    "list": [
+      {
+        "pagePath": "pages/realTime/realTime",
+        "text": "实时热销",
+        "iconPath": "imgs/realTime.png",
+        "selectedIconPath": "imgs/realTimeSelected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "最多优惠",
+        "iconPath": "imgs/promotion.png",
+        "selectedIconPath": "imgs/promotionSelected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "猜你喜欢",
+        "iconPath": "imgs/guessYouLike.png",
+        "selectedIconPath": "imgs/guessYouLikeSelected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "imgs/mine.png",
+        "selectedIconPath": "imgs/mineSelected.png"
+      }
+    ]
+  }
+}
